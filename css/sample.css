@@ -16,12 +16,12 @@ body {
   position: relative;
 }
 
-.main-header {
-  padding-bottom: 15%;
-  width: 100%;
-  background-size: cover;
-  background-image: url("../images/header.jpg");
-  background-attachment: fixed;
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 /* ここから */
@@ -54,7 +54,16 @@ header li {
 /* header ul:after {
 } */
 /* clearfixに記載 */
+
 /* ここまでがheader部分の実装 */
+
+.main-header {
+  padding: 7.5% 0;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
 
 .main-header img {
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
@@ -66,27 +75,19 @@ header li {
   vertical-align: center;
 }
 
-h1 {
-  font-size: 1.5rem;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
 /* ここから */
 .function {
   width: 100%;
   padding: 20px;
   background-color: #d3d3d3;
-  margin: auto;
 }
 .function-images {
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 .function-image {
-  float: left;
-  padding-right: 50px;
+  padding: 0px 10px;
 }
 
 .function-image img {
